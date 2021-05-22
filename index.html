@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>SirHamilton</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+
+<body>
+    <header>
+        <a href="#home"> Home</a> |
+        <a href="#places">Places</a> |
+        <a href="#search">Search</a> |
+        <a href="#gallery">Gallery</a> |
+        <a href="#aboutus">About us</a>
+    </header>
+    <br><br>
+
+
+    <section class="content">
+        <h1>Receiving Ayrton Senna's Helmet </h1>
+        <img src="https://ichef.bbci.co.uk/news/660/cpsprodpb/8FEB/production/_96434863_hams_getty.jpg">
+
+        <div id="new"> </div>
+        <br>
+
+
+        <p1>Courtesy : <U><a href="#"> Formula 1</a></U> </p1>
+        <br>
+        <p><B>Year </B> : 2017</p>
+        <p><B>Date </B> : 11th June</p>
+
+        <article style="text-align: justify">
+            Sir Lewis Carl Davidson Hamilton is a British racing driver. He currently competes in Formula One for Mercedes, having previously driven for McLaren from 2007 to 2012. Some consider him as the best driver and widely regarded as one of the
+            <strong>"GREATEST DRIVER OF ALL TIME AKA G.O.A.T"</strong>,  In Formula One, Hamilton has won a joint-record seven World Drivers' Championship titles (tied with Michael Schumacher), and holds the records for the most wins (98), pole positions (100) and podium finishes (169), amongst others.
+            Hamilton has been credited with furthering Formula One's global following by appealing to a broader audience outside the sport, in part due to his high-profile lifestyle, environmental and social activism, and his exploits in music and fashion. He has also become a prominent advocate in support of activism to combat racism and push for increased diversity in motorsport. Hamilton was listed in the 2020 issue of Time as one of the 100 most influential people globally and was knighted in the 2021 New Year Honours.
+        </article>
+
+        
+
+        <h2>Reviews</h2>
+
+        <p style="font-weight:bold"> "Amazing"</p>
+
+        <table>
+            <tr>
+                <td> Toto Wolff </td>
+                <link rel="stylesheet"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <td>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span></td>
+                </td>
+            </tr>
+        </table>
+
+        <article>“He is not only a best driver, he helps us in marketing and business of the team.” </article>
+        <br>
+        <hr>
+
+        <p style="font-weight:bold;"> "Crazy" </p>
+
+        <table>
+            <tr>
+                <td> Nico Rosberg</td>
+                <td><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"> </td>
+            </tr>
+        </table>
+
+        <article> "I realized that I can't beat him another time. So I retired and now I try to beat him in F1 video games".</article>
+        <br>
+        <hr><br>
+
+        <p style="font-weight:bold;">"LOL"</p>
+
+        <table>
+            <tr>
+                <td> Max Verstappen </td>
+                <td>
+
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span></td>
+            </tr>
+        </table>
+
+        <article>"I will beat him with the team who hired his engineers" </article>
+        <hr><br>
+
+        <p style="font-weight:bold;">"Waiting for the seat"</p>
+
+        <table>
+            <tr>
+                <td> George Russel </td>
+                <td>
+
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span></td>
+            </tr>
+        </table>
+
+        <article>"When he retires, I'll have the seat of the great W12" </article>
+        <hr><br>
+
+        <p style="font-weight:bold;">"Hold my Glass"</p>
+
+        <table>
+            <tr>
+                <td> Nikita Mazepin </td>
+                <td>
+
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span></td>
+            </tr>
+        </table>
+
+        <article>"I take him out in the next race while he's lapping me" </article>
+        <br><br>
+
+
+            <section class="end">
+                <a href="#home"> Home</a> |
+                <a href="#places">Places</a> |
+                <a href="#search">Search</a> |
+                <a href="#gallery">Gallery</a> |
+                <a href="#aboutus">About us</a>
+            </section>
+            <br><br>
+
+    <footer>
+        <p><i>Copyright &#169 2021 FORMULA 1</i></p>
+    </footer>
+
+
+    <script>
+        var var1 = setInterval(inTimer, 500);
+        var fs = 5; //font size
+        var ids = document.getElementById("new");
+
+        function inTimer() {
+            ids.innerHTML = 'Sir Hamilton';
+            ids.setAttribute('style', "font-size: " + fs + "px; color: purple");
+            fs += 5;
+            if (fs >= 50) {
+                clearInterval(var1); //paused
+                var2 = setInterval(deTimer, 500);
+
+            }
+        }
+
+        function deTimer() //fs = 50px
+        {
+            fs -= 5;
+            ids.innerHTML = '"Bono, My tyres are gone!"';
+            ids.setAttribute('style', "font-size: " + fs + "px; color:turquoise");
+            if (fs == 15) {
+                clearInterval(var2); //paused
+                var1 = setInterval(inTimer, 500);
+            }
+        }
+    </script>
+
+    </section>
+</body>
+
+</html>
